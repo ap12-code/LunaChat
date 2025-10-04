@@ -13,6 +13,8 @@ dependencies {
 tasks {
     shadowJar {
         archiveBaseName = rootProject.name
+        version = rootProject.version
+        archiveClassifier = ""
 
         exclude("META-INF/LICENSE")
 

@@ -43,6 +43,7 @@ pluginManagement {
 }
 
 rootProject.name = "LunaChat"
+
 include(":core")
 include(":bukkit")
 include(":velocity")

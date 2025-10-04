@@ -2,6 +2,7 @@ plugins {
     java
 }
 
+rootProject.version = "4.0.0"
 
 dependencies {
     implementation("net.kyori:adventure-api:4.21.0")
