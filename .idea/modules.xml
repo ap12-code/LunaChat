@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bukkit/LunaChat.bukkit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/bukkit/LunaChat.bukkit.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bukkit/LunaChat.bukkit.test.iml" filepath="$PROJECT_DIR$/.idea/modules/bukkit/LunaChat.bukkit.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bundle/LunaChat.bundle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/bundle/LunaChat.bundle.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bundle/LunaChat.bundle.test.iml" filepath="$PROJECT_DIR$/.idea/modules/bundle/LunaChat.bundle.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bungee/LunaChat.bungee.main.iml" filepath="$PROJECT_DIR$/.idea/modules/bungee/LunaChat.bungee.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bungee/LunaChat.bungee.test.iml" filepath="$PROJECT_DIR$/.idea/modules/bungee/LunaChat.bungee.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/LunaChat.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/LunaChat.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/LunaChat.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/LunaChat.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/velocity/LunaChat.velocity.main.iml" filepath="$PROJECT_DIR$/.idea/modules/velocity/LunaChat.velocity.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/velocity/LunaChat.velocity.test.iml" filepath="$PROJECT_DIR$/.idea/modules/velocity/LunaChat.velocity.test.iml" />
+    </modules>
+  </component>
+</project>

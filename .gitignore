@@ -1,10 +1,4 @@
-/.settings/*
-/.classpath
-/.project
-/target
-#IntelliJ
-.idea/
-*.iml
-/.sts4-cache
-/LunaChat
-/pom.xml.versionsBackup
+.gradle
+build
+run
+src
