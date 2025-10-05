@@ -47,6 +47,14 @@
         <module name="LunaChat.velocity.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="1.8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LunaChat.fabric" options="-AoutRefMapFile=C:\Users\ap12\Documents\LunaChat\fabric\build\classes\java\client\client-fabric-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\ap12\Documents\LunaChat\fabric\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.client.tiny -AinMapFileNamedIntermediary=C:\Users\ap12\.gradle\caches\fabric-loom\1.21.8\net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2\mappings.tiny" />
+      <module name="LunaChat.fabric.client" options="-AoutRefMapFile=C:\Users\ap12\Documents\LunaChat\fabric\build\classes\java\client\client-fabric-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\ap12\Documents\LunaChat\fabric\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.client.tiny -AinMapFileNamedIntermediary=C:\Users\ap12\.gradle\caches\fabric-loom\1.21.8\net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2\mappings.tiny" />
+      <module name="LunaChat.fabric.main" options="-AoutRefMapFile=C:\Users\ap12\Documents\LunaChat\fabric\build\classes\java\main\fabric-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\ap12\Documents\LunaChat\fabric\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.main.tiny -AinMapFileNamedIntermediary=C:\Users\ap12\.gradle\caches\fabric-loom\1.21.8\net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2\mappings.tiny" />
+      <module name="LunaChat.fabric.test" options="-AoutRefMapFile=C:\Users\ap12\Documents\LunaChat\fabric\build\classes\java\test\test-fabric-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\ap12\Documents\LunaChat\fabric\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.test.tiny -AinMapFileNamedIntermediary=C:\Users\ap12\.gradle\caches\fabric-loom\1.21.8\net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2\mappings.tiny" />
+    </option>
   </component>
 </project>
