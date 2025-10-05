@@ -1,0 +1,46 @@
+# ${project.name} v${project.version}
+# @author     ucchy
+# @license    LGPLv3
+# @copyright  Copyright ucchy 2020
+
+
+# -------------------- Discord全般設定 --------------------
+
+# Discord連携機能を有効にするか
+enabled: false
+
+# Botのトークン
+token: "TOKEN"
+
+
+# -------------------- Minecraft -> Discordメッセージ設定 --------------------
+
+# MinecraftのチャットをDiscordに送信するか
+enableMinecraftToDiscord: true
+
+# チャットの送信先チャンネル
+globalChannelId: "000000000000000000"
+
+# Minecraft -> Discordにメッセージを送信するときに適応されるフォーマット設定
+# %displayname : 発言者表示名
+# %player   : 発言者ID
+# %server   : 発言者の接続サーバー名（プロキシ側に導入したときに有効です。）
+# %world    : 発言したワールド名（Spigot側に導入したときに有効です。Multiverseが導入されている場合は、ワールドの表示名を取得して使用します。）
+# %prefix   : プレフィックス（Vaultと権限プラグインが導入されている場合に置き換えられます）
+# %suffix   : サフィックス（Vaultと権限プラグインが導入されている場合に置き換えられます）
+# %date     : 日付
+# %time     : 時刻
+# %msg      : 発言内容（Japanize変換された場合は、Japanize結果を含みます。）
+defaultFormatForDiscordMessage: "[%server] %prefix%displayname%suffix » %msg"
+
+
+# -------------------- Discord -> Minecraftメッセージ設定 --------------------
+
+# DiscordのメッセージをMinecraftに送信するか
+enableDiscordToMinecraft: true
+
+# Discord -> Minecraftにメッセージを送信するときに適応されるフォーマット設定
+# %ch          : 発言元チャンネル名
+# %displayname : 発言者表示名
+# %role        : 発言者に付与されている最上位ロールの名前
+defaultFormatForMinecraftMessage: "[&bDiscord &f| &e%role&f] &f%displayname&a: &f%msg"

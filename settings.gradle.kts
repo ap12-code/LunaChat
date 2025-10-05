@@ -49,4 +49,4 @@ include(":bukkit")
 include(":velocity")
 include(":bungee")
 
-include("bundle")
+include(":bundle")
