@@ -1,12 +1,10 @@
 LunaChat
 ========
 
-Build Status : [![Build Status](https://travis-ci.org/ucchyocean/LunaChat.svg?branch=master)](https://travis-ci.org/ucchyocean/LunaChat)
-
 チャンネルチャットプラグイン<br />
 <br />
 ダウンロードはこちらから<br />
-https://github.com/ucchyocean/LunaChat/releases<br />
+https://github.com/ap12-code/LunaChat/releases<br />
 <br />
 コマンドリファレンスや、設定リファレンスは、こちらから<br />
 https://github.com/ucchyocean/LunaChat/wiki/Commands<br />
