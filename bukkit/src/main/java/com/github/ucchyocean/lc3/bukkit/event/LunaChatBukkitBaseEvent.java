@@ -10,7 +10,7 @@ import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
 import com.github.ucchyocean.lc3.LunaChat;
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
+import com.github.ucchyocean.lc3.channel.Channel;
 
 /**
  * 基底イベントクラス

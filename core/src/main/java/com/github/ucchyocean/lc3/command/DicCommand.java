@@ -6,7 +6,7 @@
 package com.github.ucchyocean.lc3.command;
 
 import com.github.ucchyocean.lc3.Messages;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * dictionaryコマンドのエイリアス実行クラス、名前のみが異なるが、他は全て一緒。

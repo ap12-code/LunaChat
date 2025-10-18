@@ -12,9 +12,9 @@ import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import com.github.ucchyocean.lc3.LunaChat;
-import com.github.ucchyocean.lc3.fabric.channel.JapanizeConvertTask;
+import com.github.ucchyocean.lc3.channel.JapanizeConvertTask;
 import com.github.ucchyocean.lc3.japanize.JapanizeType;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import com.github.ucchyocean.lc3.bukkit.member.ChannelMemberBukkitPlayer;
 
 /**

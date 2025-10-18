@@ -1,6 +1,6 @@
 package com.github.ucchyocean.lc3.velocity.member;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import com.velocitypowered.api.command.CommandSource;
 import com.velocitypowered.api.proxy.Player;
 import com.velocitypowered.api.proxy.server.RegisteredServer;
@@ -29,7 +29,7 @@ public abstract class ChannelMemberVelocity extends ChannelMember {
     /**
      * 発言者が今いるワールド名を返す
      * @return 常に空文字列が返される
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#getWorldName()
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#getWorldName()
      */
     @Override
     public String getWorldName() {

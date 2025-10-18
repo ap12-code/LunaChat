@@ -5,7 +5,7 @@
  */
 package com.github.ucchyocean.lc3.velocity.event;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * Japanize変換が行われた後に呼び出されるイベント
@@ -13,8 +13,8 @@ import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
  */
 public class LunaChatVelocityPostJapanizeEvent extends LunaChatVelocityBaseCancellableEvent {
 
-    private ChannelMember member;
-    private String original;
+    private final ChannelMember member;
+    private final String original;
     private String japanized;
 
     /**

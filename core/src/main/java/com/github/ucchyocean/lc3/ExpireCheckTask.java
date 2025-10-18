@@ -5,7 +5,7 @@
  */
 package com.github.ucchyocean.lc3;
 
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
+import com.github.ucchyocean.lc3.channel.Channel;
 
 /**
  * 各チャンネルの期限付きBANや期限付きMuteを、1分間隔で確認しに行くタスク

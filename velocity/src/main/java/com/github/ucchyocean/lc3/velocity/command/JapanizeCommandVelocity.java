@@ -1,6 +1,7 @@
 package com.github.ucchyocean.lc3.velocity.command;
 
 import com.github.ucchyocean.lc3.command.LunaChatJapanizeCommand;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import com.github.ucchyocean.lc3.velocity.member.ChannelMemberVelocity;
 import com.velocitypowered.api.command.CommandManager;
 import com.velocitypowered.api.command.CommandMeta;

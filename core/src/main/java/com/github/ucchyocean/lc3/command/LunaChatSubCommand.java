@@ -8,7 +8,7 @@ package com.github.ucchyocean.lc3.command;
 import com.github.ucchyocean.lc3.LunaChat;
 import com.github.ucchyocean.lc3.LunaChatAPI;
 import com.github.ucchyocean.lc3.LunaChatConfig;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * サブコマンドの抽象クラス

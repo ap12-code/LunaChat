@@ -7,6 +7,7 @@ package com.github.ucchyocean.lc3.bungee.command;
 
 import com.github.ucchyocean.lc3.bungee.member.ChannelMemberBungee;
 import com.github.ucchyocean.lc3.command.LunaChatJapanizeCommand;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.plugin.Command;

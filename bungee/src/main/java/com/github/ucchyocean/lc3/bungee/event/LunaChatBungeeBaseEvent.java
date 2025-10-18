@@ -6,7 +6,7 @@
 package com.github.ucchyocean.lc3.bungee.event;
 
 import com.github.ucchyocean.lc3.LunaChat;
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
+import com.github.ucchyocean.lc3.channel.Channel;
 
 import net.md_5.bungee.api.plugin.Event;
 

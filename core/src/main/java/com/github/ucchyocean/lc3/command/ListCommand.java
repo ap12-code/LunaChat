@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.github.ucchyocean.lc3.Messages;
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.channel.Channel;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import com.github.ucchyocean.lc3.util.ChatColor;
 
 import com.github.ucchyocean.lc3.util.ComponentAdapter;

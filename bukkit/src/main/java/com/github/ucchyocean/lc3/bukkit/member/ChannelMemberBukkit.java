@@ -5,7 +5,7 @@
  */
 package com.github.ucchyocean.lc3.bukkit.member;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.command.BlockCommandSender;

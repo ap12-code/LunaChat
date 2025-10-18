@@ -13,5 +13,5 @@ public enum LunaChatMode {
     BUKKIT,
     BUNGEE,
     VELOCITY,
-    FABRIC,
+    STANDALONE,
 }

@@ -5,8 +5,8 @@
  */
 package com.github.ucchyocean.lc3.velocity.event;
 
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.channel.Channel;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * チャンネルチャットへの発言前に発生するイベント
@@ -14,7 +14,7 @@ import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
  */
 public class LunaChatVelocityPreChatEvent extends LunaChatVelocityBaseCancellableEvent {
 
-    private ChannelMember member;
+    private final ChannelMember member;
     private String message;
 
     public LunaChatVelocityPreChatEvent(String channelName, ChannelMember member, String message) {

@@ -11,9 +11,9 @@ import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import com.github.ucchyocean.lc3.fabric.channel.JapanizeConvertTask;
+import com.github.ucchyocean.lc3.channel.JapanizeConvertTask;
 import com.github.ucchyocean.lc3.japanize.JapanizeType;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * Japanize2行表示のときに、変換結果を遅延して指定した受信者に表示するためのタスク。

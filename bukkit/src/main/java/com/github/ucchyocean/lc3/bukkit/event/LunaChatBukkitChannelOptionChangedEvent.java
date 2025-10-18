@@ -8,7 +8,7 @@ package com.github.ucchyocean.lc3.bukkit.event;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * オプション変更イベント

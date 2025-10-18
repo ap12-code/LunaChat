@@ -7,7 +7,7 @@ package com.github.ucchyocean.lc3.bungee.event;
 
 import java.util.List;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * メンバー変更イベント

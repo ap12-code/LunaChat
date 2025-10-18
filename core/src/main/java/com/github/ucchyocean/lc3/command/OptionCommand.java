@@ -12,10 +12,10 @@ import java.util.Map;
 
 import com.github.ucchyocean.lc3.LunaChat;
 import com.github.ucchyocean.lc3.Messages;
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
+import com.github.ucchyocean.lc3.channel.Channel;
 import com.github.ucchyocean.lc3.event.EventResult;
 import com.github.ucchyocean.lc3.japanize.JapanizeType;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import com.github.ucchyocean.lc3.util.Utility;
 
 /**

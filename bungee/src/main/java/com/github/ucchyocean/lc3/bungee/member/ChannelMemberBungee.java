@@ -5,7 +5,7 @@
  */
 package com.github.ucchyocean.lc3.bungee.member;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.connection.Server;
@@ -43,7 +43,7 @@ public abstract class ChannelMemberBungee extends ChannelMember {
     /**
      * 発言者が今いるワールド名を返す
      * @return 常に空文字列が返される
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#getWorldName()
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#getWorldName()
      */
     @Override
     public String getWorldName() {

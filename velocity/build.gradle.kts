@@ -9,10 +9,11 @@ dependencies {
     compileOnly("com.velocitypowered:velocity-api:3.4.0-SNAPSHOT")
     annotationProcessor("com.velocitypowered:velocity-api:3.4.0-SNAPSHOT")
 
+    compileOnly("io.github.4drian3d:signedvelocity-common:1.4.1")
 }
 
 tasks {
-  runVelocity {
-    velocityVersion("3.4.0-SNAPSHOT")
-  }
+    runVelocity {
+        velocityVersion("3.4.0-SNAPSHOT")
+    }
 }

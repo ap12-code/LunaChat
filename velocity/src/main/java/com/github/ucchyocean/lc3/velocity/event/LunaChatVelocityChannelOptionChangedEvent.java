@@ -5,7 +5,7 @@
  */
 package com.github.ucchyocean.lc3.velocity.event;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,7 +16,7 @@ import java.util.Map;
  */
 public class LunaChatVelocityChannelOptionChangedEvent extends LunaChatVelocityBaseCancellableEvent {
 
-    private ChannelMember member;
+    private final ChannelMember member;
     private Map<String, String> options;
 
     public LunaChatVelocityChannelOptionChangedEvent(String channelName,

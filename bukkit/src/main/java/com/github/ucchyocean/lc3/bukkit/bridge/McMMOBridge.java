@@ -20,7 +20,7 @@ import com.github.ucchyocean.lc3.bukkit.LunaChatBukkit;
 import com.github.ucchyocean.lc3.LunaChatConfig;
 import com.github.ucchyocean.lc3.bukkit.task.LunaChatBukkitRecipientChatJapanizeTask;
 import com.github.ucchyocean.lc3.japanize.JapanizeType;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import com.github.ucchyocean.lc3.util.Utility;
 import com.gmail.nossr50.api.PartyAPI;
 import com.gmail.nossr50.events.chat.McMMOPartyChatEvent;

@@ -5,8 +5,9 @@
  */
 package com.github.ucchyocean.lc3.command;
 
+import com.github.ucchyocean.lc3.LunaChat;
 import com.github.ucchyocean.lc3.Messages;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * 1:1チャット受信コマンド
@@ -20,7 +21,7 @@ public class LunaChatReplyCommand extends LunaChatMessageCommand {
      * @param label 実行されたコマンドのラベル
      * @param args 実行されたコマンドの引数
      * @return 実行したかどうか（falseを返した場合、サーバーがUsageを表示する）
-     * @see com.github.ucchyocean.lc3.command.LunaChatMessageCommand#execute(com.github.ucchyocean.lc3.fabric.member.ChannelMember, java.lang.String, java.lang.String[])
+     * @see com.github.ucchyocean.lc3.command.LunaChatMessageCommand#execute(com.github.ucchyocean.lc3.member.ChannelMember, java.lang.String, java.lang.String[])
      */
     @Override
     public boolean execute(ChannelMember sender, String label, String[] args) {

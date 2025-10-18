@@ -7,7 +7,7 @@ package com.github.ucchyocean.lc3.bukkit.event;
 
 import java.util.List;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * チャンネルチャットのメッセージイベント、

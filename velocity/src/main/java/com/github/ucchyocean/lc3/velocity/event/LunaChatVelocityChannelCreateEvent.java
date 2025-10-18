@@ -5,8 +5,8 @@
  */
 package com.github.ucchyocean.lc3.velocity.event;
 
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.channel.Channel;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * チャンネル作成イベント

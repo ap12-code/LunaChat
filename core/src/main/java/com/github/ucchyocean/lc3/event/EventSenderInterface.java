@@ -8,7 +8,7 @@ package com.github.ucchyocean.lc3.event;
 import java.util.List;
 import java.util.Map;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * LunaChatのイベント実行インターフェイス

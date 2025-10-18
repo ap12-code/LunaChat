@@ -5,7 +5,7 @@
  */
 package com.github.ucchyocean.lc3.bungee.event;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * Japanize変換が行われた後に呼び出されるイベント

@@ -11,8 +11,8 @@ import java.util.List;
 import com.github.ucchyocean.lc3.LunaChat;
 import com.github.ucchyocean.lc3.LunaChatAPI;
 import com.github.ucchyocean.lc3.Messages;
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.channel.Channel;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * 1:1チャット送信コマンド

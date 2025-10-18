@@ -12,6 +12,8 @@ import org.bukkit.World;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
 
+import net.md_5.bungee.api.chat.BaseComponent;
+
 /**
  * ChannelMemberのBukkit-ConsoleCommandSender実装
  * @author ucchy
@@ -92,7 +94,7 @@ public class ChannelMemberBukkitConsole extends ChannelMemberBukkit {
     /**
      * メッセージを送る
      * @param message 送るメッセージ
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#sendMessage(net.md_5.bungee.api.chat.BaseComponent[])
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#sendMessage(net.md_5.bungee.api.chat.BaseComponent[])
      */
     public void sendMessage(Component message) {
         if ( message == null ) return;
@@ -154,7 +156,7 @@ public class ChannelMemberBukkitConsole extends ChannelMemberBukkit {
     /**
      * 指定されたメッセージの内容を発言する
      * @param message メッセージ
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#chat(java.lang.String)
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#chat(java.lang.String)
      */
     public void chat(String message) {
         Bukkit.broadcastMessage("<" + getName() + ">" + message);

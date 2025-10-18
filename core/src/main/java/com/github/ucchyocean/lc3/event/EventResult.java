@@ -9,8 +9,8 @@ import java.util.List;
 import java.util.Map;
 
 import com.github.ucchyocean.lc3.LunaChat;
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.channel.Channel;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * イベントの実行結果を格納するクラス

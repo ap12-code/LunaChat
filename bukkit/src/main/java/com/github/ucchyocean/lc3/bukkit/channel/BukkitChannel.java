@@ -8,7 +8,7 @@ package com.github.ucchyocean.lc3.bukkit.channel;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
+import com.github.ucchyocean.lc3.channel.Channel;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -23,7 +23,7 @@ import com.github.ucchyocean.lc3.LunaChatConfig;
 import com.github.ucchyocean.lc3.Messages;
 import com.github.ucchyocean.lc3.bukkit.bridge.DynmapBridge;
 import com.github.ucchyocean.lc3.event.EventResult;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import com.github.ucchyocean.lc3.bukkit.member.ChannelMemberBukkit;
 import com.github.ucchyocean.lc3.util.ClickableFormat;
 import com.github.ucchyocean.lc3.bukkit.util.UtilityBukkit;
@@ -196,7 +196,7 @@ public class BukkitChannel extends Channel {
     /**
      * チャンネルのオンライン人数を返す
      * @return オンライン人数
-     * @see com.github.ucchyocean.lc3.fabric.channel.Channel#getOnlineNum()
+     * @see com.github.ucchyocean.lc3.channel.Channel#getOnlineNum()
      */
     @Override
     public int getOnlineNum() {
@@ -212,7 +212,7 @@ public class BukkitChannel extends Channel {
     /**
      * チャンネルの総参加人数を返す
      * @return 総参加人数
-     * @see com.github.ucchyocean.lc3.fabric.channel.Channel#getTotalNum()
+     * @see com.github.ucchyocean.lc3.channel.Channel#getTotalNum()
      */
     @Override
     public int getTotalNum() {
@@ -228,7 +228,7 @@ public class BukkitChannel extends Channel {
     /**
      * チャンネルのメンバーを返す
      * @return チャンネルのメンバー
-     * @see com.github.ucchyocean.lc3.fabric.channel.Channel#getMembers()
+     * @see com.github.ucchyocean.lc3.channel.Channel#getMembers()
      */
     @Override
     public List<ChannelMember> getMembers() {

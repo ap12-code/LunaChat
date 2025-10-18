@@ -7,7 +7,8 @@ package com.github.ucchyocean.lc3.bukkit.member;
 
 import java.util.UUID;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMemberOther;
+import com.github.ucchyocean.lc3.member.ChannelMemberOther;
+import com.github.ucchyocean.lc3.util.ComponentAdapter;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -118,7 +119,7 @@ public class ChannelMemberBukkitPlayer extends ChannelMemberBukkit {
     /**
      * プレフィックスを返す
      * @return プレフィックス
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMemberPlayer#getPrefix()
+     * @see com.github.ucchyocean.lc3.member.ChannelMemberPlayer#getPrefix()
      */
     @Override
     public String getPrefix() {
@@ -136,7 +137,7 @@ public class ChannelMemberBukkitPlayer extends ChannelMemberBukkit {
     /**
      * サフィックスを返す
      * @return サフィックス
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMemberPlayer#getSuffix()
+     * @see com.github.ucchyocean.lc3.member.ChannelMemberPlayer#getSuffix()
      */
     @Override
     public String getSuffix() {
@@ -154,7 +155,7 @@ public class ChannelMemberBukkitPlayer extends ChannelMemberBukkit {
     /**
      * メッセージを送る
      * @param message 送るメッセージ
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMemberPlayer#sendMessage(java.lang.String)
+     * @see com.github.ucchyocean.lc3.member.ChannelMemberPlayer#sendMessage(java.lang.String)
      */
     @Override
     public void sendMessage(String message) {
@@ -263,7 +264,7 @@ public class ChannelMemberBukkitPlayer extends ChannelMemberBukkit {
     /**
      * 指定されたメッセージの内容を発言する
      * @param message メッセージ
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#chat(java.lang.String)
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#chat(java.lang.String)
      */
     public void chat(String message) {
         Player player = getPlayer();

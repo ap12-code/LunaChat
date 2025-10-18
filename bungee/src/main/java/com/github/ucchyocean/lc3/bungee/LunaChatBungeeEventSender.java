@@ -18,7 +18,7 @@ import com.github.ucchyocean.lc3.bungee.event.LunaChatBungeePostJapanizeEvent;
 import com.github.ucchyocean.lc3.bungee.event.LunaChatBungeePreChatEvent;
 import com.github.ucchyocean.lc3.event.EventResult;
 import com.github.ucchyocean.lc3.event.EventSenderInterface;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 import net.md_5.bungee.api.ProxyServer;
 
@@ -35,7 +35,7 @@ public class LunaChatBungeeEventSender implements EventSenderInterface {
      * @param ngMaskedMessage 発言内容（NGマスク後）
      * @param messageFormat 発言に適用されるフォーマット
      * @return イベント実行結果
-     * @see com.github.ucchyocean.lc3.event.EventSenderInterface#sendLunaChatChannelChatEvent(java.lang.String, com.github.ucchyocean.lc3.fabric.member.ChannelMember, java.lang.String, java.lang.String, java.lang.String)
+     * @see com.github.ucchyocean.lc3.event.EventSenderInterface#sendLunaChatChannelChatEvent(java.lang.String, com.github.ucchyocean.lc3.member.ChannelMember, java.lang.String, java.lang.String, java.lang.String)
      */
     @Override
     public EventResult sendLunaChatChannelChatEvent(String channelName, ChannelMember member, String originalMessage,
@@ -58,7 +58,7 @@ public class LunaChatBungeeEventSender implements EventSenderInterface {
      * @param channelName チャンネル名
      * @param member 作成した人
      * @return イベント実行結果
-     * @see com.github.ucchyocean.lc3.event.EventSenderInterface#sendLunaChatChannelCreateEvent(java.lang.String, com.github.ucchyocean.lc3.fabric.member.ChannelMember)
+     * @see com.github.ucchyocean.lc3.event.EventSenderInterface#sendLunaChatChannelCreateEvent(java.lang.String, com.github.ucchyocean.lc3.member.ChannelMember)
      */
     @Override
     public EventResult sendLunaChatChannelCreateEvent(String channelName, ChannelMember member) {
@@ -145,7 +145,7 @@ public class LunaChatBungeeEventSender implements EventSenderInterface {
      * @param channelName チャンネル名
      * @param member 削除を実行した人
      * @return イベント実行結果
-     * @see com.github.ucchyocean.lc3.event.EventSenderInterface#sendLunaChatChannelRemoveEvent(java.lang.String, com.github.ucchyocean.lc3.fabric.member.ChannelMember)
+     * @see com.github.ucchyocean.lc3.event.EventSenderInterface#sendLunaChatChannelRemoveEvent(java.lang.String, com.github.ucchyocean.lc3.member.ChannelMember)
      */
     @Override
     public EventResult sendLunaChatChannelRemoveEvent(String channelName, ChannelMember member) {
@@ -166,7 +166,7 @@ public class LunaChatBungeeEventSender implements EventSenderInterface {
      * @param original 変換前の文字列
      * @param japanized 変換後の文字列
      * @return イベント実行結果
-     * @see com.github.ucchyocean.lc3.event.EventSenderInterface#sendLunaChatPostJapanizeEvent(java.lang.String, com.github.ucchyocean.lc3.fabric.member.ChannelMember, java.lang.String, java.lang.String)
+     * @see com.github.ucchyocean.lc3.event.EventSenderInterface#sendLunaChatPostJapanizeEvent(java.lang.String, com.github.ucchyocean.lc3.member.ChannelMember, java.lang.String, java.lang.String)
      */
     @Override
     public EventResult sendLunaChatPostJapanizeEvent(String channelName, ChannelMember member, String original,
@@ -188,7 +188,7 @@ public class LunaChatBungeeEventSender implements EventSenderInterface {
      * @param member 発言したメンバー
      * @param message 発言内容
      * @return イベント実行結果
-     * @see com.github.ucchyocean.lc3.event.EventSenderInterface#sendLunaChatPreChatEvent(java.lang.String, com.github.ucchyocean.lc3.fabric.member.ChannelMember, java.lang.String)
+     * @see com.github.ucchyocean.lc3.event.EventSenderInterface#sendLunaChatPreChatEvent(java.lang.String, com.github.ucchyocean.lc3.member.ChannelMember, java.lang.String)
      */
     @Override
     public EventResult sendLunaChatPreChatEvent(String channelName, ChannelMember member, String message) {

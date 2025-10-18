@@ -9,6 +9,7 @@ import java.util.UUID;
 
 import com.github.ucchyocean.lc3.bungee.LunaChatBungee;
 import com.github.ucchyocean.lc3.bungee.bridge.BungeePermsBridge;
+import com.github.ucchyocean.lc3.util.ComponentAdapter;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.serializer.bungeecord.BungeeComponentSerializer;
 import org.jetbrains.annotations.Nullable;
@@ -178,7 +179,7 @@ public class ChannelMemberBungeePlayer extends ChannelMemberBungee {
      * 指定されたパーミッションノードが定義されているかどうかを取得する
      * @param node パーミッションノード
      * @return 定義を持っているかどうか
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#isPermissionSet(java.lang.String)
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#isPermissionSet(java.lang.String)
      */
     @Override
     public boolean isPermissionSet(String node) {
@@ -192,7 +193,7 @@ public class ChannelMemberBungeePlayer extends ChannelMemberBungee {
     /**
      * 指定されたメッセージの内容を発言する
      * @param message メッセージ
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#chat(java.lang.String)
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#chat(java.lang.String)
      */
     public void chat(String message) {
         ProxiedPlayer player = getPlayer();

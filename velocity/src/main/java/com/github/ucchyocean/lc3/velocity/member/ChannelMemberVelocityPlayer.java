@@ -6,7 +6,7 @@
 package com.github.ucchyocean.lc3.velocity.member;
 
 import com.github.ucchyocean.lc3.LunaChat;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import com.github.ucchyocean.lc3.velocity.LunaChatVelocity;
 import com.github.ucchyocean.lc3.bridge.LuckPermsBridge;
 import com.github.ucchyocean.lc3.util.ComponentAdapter;
@@ -70,7 +70,7 @@ public class ChannelMemberVelocityPlayer extends ChannelMemberVelocity {
     /**
      * プレイヤー名を返す
      * @return プレイヤー名
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#getName()
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#getName()
      */
     @Override
     public String getName() {
@@ -88,7 +88,7 @@ public class ChannelMemberVelocityPlayer extends ChannelMemberVelocity {
     /**
      * プレイヤー表示名を返す
      * @return プレイヤー表示名
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#getDisplayName()
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#getDisplayName()
      */
     @Override
     public String getDisplayName() {
@@ -102,7 +102,7 @@ public class ChannelMemberVelocityPlayer extends ChannelMemberVelocity {
     /**
      * プレフィックスを返す
      * @return プレフィックス
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#getPrefix()
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#getPrefix()
      */
     @Override
     public String getPrefix() {
@@ -117,7 +117,7 @@ public class ChannelMemberVelocityPlayer extends ChannelMemberVelocity {
     /**
      * サフィックスを返す
      * @return サフィックス
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#getSuffix()
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#getSuffix()
      */
     @Override
     public String getSuffix() {
@@ -133,7 +133,7 @@ public class ChannelMemberVelocityPlayer extends ChannelMemberVelocity {
     /**
      * メッセージを送る
      * @param message 送るメッセージ
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#sendMessage(String)
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#sendMessage(String)
      */
     @Override
     public void sendMessage(String message) {
@@ -159,7 +159,7 @@ public class ChannelMemberVelocityPlayer extends ChannelMemberVelocity {
      * 指定されたパーミッションノードの権限を持っているかどうかを取得する
      * @param node パーミッションノード
      * @return 権限を持っているかどうか
-     * @see com.github.ucchyocean.lc3.fabric.member.ChannelMember#hasPermission(String)
+     * @see com.github.ucchyocean.lc3.member.ChannelMember#hasPermission(String)
      */
     @Override
     public boolean hasPermission(String node) {

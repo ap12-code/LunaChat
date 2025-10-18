@@ -5,7 +5,7 @@
  */
 package com.github.ucchyocean.lc3.velocity.event;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 import java.util.List;
 

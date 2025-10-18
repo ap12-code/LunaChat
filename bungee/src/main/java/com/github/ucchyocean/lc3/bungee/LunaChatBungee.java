@@ -16,12 +16,12 @@ import com.github.ucchyocean.lc3.bungee.command.JapanizeCommandBungee;
 import com.github.ucchyocean.lc3.bungee.command.LunaChatCommandBungee;
 import com.github.ucchyocean.lc3.bungee.command.MessageCommandBungee;
 import com.github.ucchyocean.lc3.bungee.command.ReplyCommandBungee;
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.channel.Channel;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import org.bstats.bungeecord.Metrics;
 
 import com.github.ucchyocean.lc3.bridge.LuckPermsBridge;
-import com.github.ucchyocean.lc3.fabric.channel.ChannelManager;
+import com.github.ucchyocean.lc3.channel.ChannelManager;
 
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.connection.ProxiedPlayer;

@@ -1,11 +1,11 @@
 package com.github.ucchyocean.lc3.velocity;
 
 import com.github.ucchyocean.lc3.*;
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
+import com.github.ucchyocean.lc3.channel.Channel;
 import com.github.ucchyocean.lc3.event.EventResult;
 import com.github.ucchyocean.lc3.japanize.Japanizer;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMemberOther;
+import com.github.ucchyocean.lc3.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMemberOther;
 import com.github.ucchyocean.lc3.messaging.BukkitChatMessage;
 import com.github.ucchyocean.lc3.util.*;
 import com.github.ucchyocean.lc3.velocity.member.ChannelMemberVelocity;

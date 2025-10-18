@@ -5,7 +5,7 @@
  */
 package com.github.ucchyocean.lc3.velocity.event;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * チャンネル削除イベント
@@ -13,7 +13,7 @@ import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
  */
 public class LunaChatVelocityChannelRemoveEvent extends LunaChatVelocityBaseCancellableEvent {
 
-    private ChannelMember member;
+    private final ChannelMember member;
 
     public LunaChatVelocityChannelRemoveEvent(String channelName, ChannelMember member) {
         super(channelName);

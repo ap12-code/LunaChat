@@ -14,7 +14,7 @@ import java.io.IOException;
 import com.github.ucchyocean.lc3.LunaChat;
 import org.jetbrains.annotations.Nullable;
 
-import com.github.ucchyocean.lc3.fabric.member.ChannelMemberOther;
+import com.github.ucchyocean.lc3.member.ChannelMemberOther;
 import com.github.ucchyocean.lc3.util.BlockLocation;
 
 /**

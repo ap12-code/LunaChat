@@ -14,7 +14,7 @@ import com.github.ucchyocean.lc3.*;
 import com.github.ucchyocean.lc3.bukkit.channel.BukkitChannel;
 import com.github.ucchyocean.lc3.bukkit.member.ChannelMemberBukkit;
 import com.github.ucchyocean.lc3.bukkit.util.UtilityBukkit;
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
+import com.github.ucchyocean.lc3.channel.Channel;
 import io.papermc.paper.threadedregions.scheduler.ScheduledTask;
 import org.bstats.bukkit.Metrics;
 import org.bstats.charts.DrilldownPie;
@@ -29,12 +29,12 @@ import com.github.ucchyocean.lc3.bukkit.bridge.DynmapBridge;
 import com.github.ucchyocean.lc3.bukkit.bridge.McMMOBridge;
 import com.github.ucchyocean.lc3.bukkit.bridge.MultiverseCoreBridge;
 import com.github.ucchyocean.lc3.bukkit.bridge.VaultChatBridge;
-import com.github.ucchyocean.lc3.fabric.channel.ChannelManager;
+import com.github.ucchyocean.lc3.channel.ChannelManager;
 import com.github.ucchyocean.lc3.command.LunaChatCommand;
 import com.github.ucchyocean.lc3.command.LunaChatJapanizeCommand;
 import com.github.ucchyocean.lc3.command.LunaChatMessageCommand;
 import com.github.ucchyocean.lc3.command.LunaChatReplyCommand;
-import com.github.ucchyocean.lc3.fabric.member.ChannelMember;
+import com.github.ucchyocean.lc3.member.ChannelMember;
 import org.jetbrains.annotations.NotNull;
 
 /**

@@ -13,7 +13,7 @@ import org.bukkit.plugin.Plugin;
 import com.github.ucchyocean.lc3.LunaChat;
 import com.github.ucchyocean.lc3.LunaChatAPI;
 import com.github.ucchyocean.lc3.LunaChatConfig;
-import com.github.ucchyocean.lc3.fabric.channel.Channel;
+import com.github.ucchyocean.lc3.channel.Channel;
 import org.dynmap.DynmapAPI;
 import org.dynmap.DynmapWebChatEvent;
 
