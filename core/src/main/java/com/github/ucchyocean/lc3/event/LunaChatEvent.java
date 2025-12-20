@@ -1,0 +1,4 @@
+package com.github.ucchyocean.lc3.event;
+
+public interface LunaChatEvent {
+}
