@@ -10,7 +10,9 @@ import java.util.UUID;
 
 import com.github.ucchyocean.lc3.channel.Channel;
 import com.github.ucchyocean.lc3.event.EventSenderInterface;
+import com.github.ucchyocean.lc3.event.LunaChatEvent;
 import com.github.ucchyocean.lc3.event.LunaChatEventManager;
+import com.github.ucchyocean.lc3.event.PlatformEventSenderInterface;
 import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
@@ -25,7 +27,7 @@ public class LunaChat {
 
     private static PluginInterface instance;
     private static LunaChatMode mode;
-    private static EventSenderInterface eventSender;
+    private static PlatformEventSenderInterface<LunaChatEvent> eventSender;
     private static final LunaChatEventManager eventManager = new LunaChatEventManager();
 
     // LunaChatに実行元プラグインクラスを設定する
@@ -54,16 +56,16 @@ public class LunaChat {
         return mode;
     }
 
-    // LunaChatのイベント実行クラスを取得する
-    public static void setEventSender(EventSenderInterface eventSender) {
-        LunaChat.eventSender = eventSender;
+    @SuppressWarnings("unchecked")
+    public static void setEventSender(PlatformEventSenderInterface<? extends LunaChatEvent> eventSender) {
+        LunaChat.eventSender = (PlatformEventSenderInterface<LunaChatEvent>) eventSender;
     }
 
     /**
      * LunaChatのイベント実行クラスを取得する
      * @return イベント実行クラス
      */
-    public static EventSenderInterface getEventSender() {
+    public static PlatformEventSenderInterface<LunaChatEvent> getEventSender() {
         return eventSender;
     }
 

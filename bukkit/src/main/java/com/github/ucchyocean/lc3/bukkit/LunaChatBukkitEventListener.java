@@ -12,6 +12,7 @@ import java.util.logging.Level;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.github.ucchyocean.lc3.bukkit.event.LunaChatBukkitPreChatEvent;
 import com.github.ucchyocean.lc3.bukkit.task.LunaChatBukkitNormalChatJapanizeTask;
 import com.github.ucchyocean.lc3.util.ComponentAdapter;
 import net.kyori.adventure.text.Component;
@@ -563,8 +564,7 @@ public class LunaChatBukkitEventListener implements Listener {
     private void chatToChannelWithEvent(ChannelMember player, Channel channel, String message) {
 
         // LunaChatPreChatEvent イベントコール
-        EventResult result = LunaChat.getEventSender().sendLunaChatPreChatEvent(
-                channel.getName(), player, message);
+        EventResult result = LunaChat.getEventSender().emit(new LunaChatBukkitPreChatEvent(channel.getName(), player, message));
         if ( result.isCancelled() ) {
             return;
         }

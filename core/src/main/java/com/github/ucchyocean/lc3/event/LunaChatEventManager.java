@@ -1,5 +1,6 @@
 package com.github.ucchyocean.lc3.event;
 
+import com.github.ucchyocean.lc3.LunaChat;
 import com.github.ucchyocean.lc3.event.listener.EventHandler;
 import com.github.ucchyocean.lc3.event.listener.LunaChatListener;
 
@@ -15,17 +16,18 @@ public class LunaChatEventManager {
         targetClasses.put(listener.getClass(), listener);
     }
 
-    public void emitEvent(LunaChatEvent event) {
+    public EventResult emitEvent(LunaChatEvent event) {
         for (Class<? extends LunaChatListener> targetClass : targetClasses.keySet()) {
             for (Method method : targetClass.getDeclaredMethods()) {
                 if (method.isAnnotationPresent(EventHandler.class) && method.getAnnotation(EventHandler.class).target().equals(event.getClass())) {
                     try {
-                        method.invoke(targetClasses.get(targetClass), event);
+                        return (EventResult) method.invoke(targetClasses.get(targetClass), event);
                     } catch (IllegalAccessException | InvocationTargetException e) {
                         throw new RuntimeException(e);
                     }
                 }
             }
         }
+        return null;
     }
 }

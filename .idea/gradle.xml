@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/bundle" />
             <option value="$PROJECT_DIR$/bungee" />
             <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/discord" />
             <option value="$PROJECT_DIR$/velocity" />
           </set>
         </option>

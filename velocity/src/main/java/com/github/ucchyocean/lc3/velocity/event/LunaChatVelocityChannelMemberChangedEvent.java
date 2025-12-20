@@ -5,6 +5,7 @@
  */
 package com.github.ucchyocean.lc3.velocity.event;
 
+import com.github.ucchyocean.lc3.event.chat.ChannelMemberChangedEvent;
 import com.github.ucchyocean.lc3.member.ChannelMember;
 
 import java.util.List;
@@ -13,10 +14,10 @@ import java.util.List;
  * メンバー変更イベント
  * @author ucchy
  */
-public class LunaChatVelocityChannelMemberChangedEvent extends LunaChatVelocityBaseCancellableEvent {
+public class LunaChatVelocityChannelMemberChangedEvent extends LunaChatVelocityBaseCancellableEvent implements ChannelMemberChangedEvent {
 
-    private List<ChannelMember> before;
-    private List<ChannelMember> after;
+    private final List<ChannelMember> before;
+    private final List<ChannelMember> after;
 
     /**
      * コンストラクタ
@@ -33,7 +34,6 @@ public class LunaChatVelocityChannelMemberChangedEvent extends LunaChatVelocityB
 
     /**
      * 変更前のメンバーリストをかえす
-     * @return
      */
     public List<ChannelMember> getMembersBefore() {
         return before;
@@ -41,7 +41,6 @@ public class LunaChatVelocityChannelMemberChangedEvent extends LunaChatVelocityB
 
     /**
      * 変更後のメンバーリストをかえす
-     * @return
      */
     public List<ChannelMember> getMembersAfter() {
         return after;

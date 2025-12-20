@@ -110,7 +110,7 @@ public class LunaChatBungee extends Plugin implements PluginInterface {
         getProxy().getPluginManager().registerListener(this, new LunaChatBungeeEventListener(this));
 
         // イベント実行クラスの登録
-        LunaChat.setEventSender(new LunaChatBungeeEventSender());
+        LunaChat.setEventSender(new LunaChatBungeeEventSender(getProxy()));
 
         // プラグインチャンネル登録
         getProxy().registerChannel(LunaChat.PMC_MESSAGE);

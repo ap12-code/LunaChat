@@ -5,9 +5,9 @@
  */
 package com.github.ucchyocean.lc3.velocity.event;
 
+import com.github.ucchyocean.lc3.event.chat.ChannelMessageEvent;
 import com.github.ucchyocean.lc3.member.ChannelMember;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,13 +15,13 @@ import java.util.List;
  * このイベントはキャンセルできない。
  * @author ucchy
  */
-public class LunaChatVelocityChannelMessageEvent extends LunaChatVelocityBaseEvent {
+public class LunaChatVelocityChannelMessageEvent extends LunaChatVelocityBaseEvent implements ChannelMessageEvent {
 
-    private ChannelMember member;
+    private final ChannelMember member;
     private String message;
     private List<ChannelMember> recipients;
-    private String displayName;
-    private String originalMessage;
+    private final String displayName;
+    private final String originalMessage;
 
     public LunaChatVelocityChannelMessageEvent(String channelName,
                                                ChannelMember member, String message, List<ChannelMember> recipients,
@@ -86,7 +86,7 @@ public class LunaChatVelocityChannelMessageEvent extends LunaChatVelocityBaseEve
      * メッセージ受信者を上書き設定する
      * @param recipients メッセージ受信者
      */
-    public void setRecipients(ArrayList<ChannelMember> recipients) {
+    public void setRecipients(List<ChannelMember> recipients) {
         this.recipients = recipients;
     }
 }

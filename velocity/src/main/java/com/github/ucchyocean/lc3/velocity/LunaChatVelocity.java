@@ -89,7 +89,7 @@ public class LunaChatVelocity implements PluginInterface {
         getProxy().getEventManager().register(this, new LunaChatVelocityEventListener(this));
 
         // イベント実行クラスの登録
-        LunaChat.setEventSender(new LunaChatVelocityEventSender());
+        LunaChat.setEventSender(new LunaChatVelocityEventSender(proxy.getEventManager()));
 
         // プラグインチャンネル登録
         getProxy().getChannelRegistrar().register(MinecraftChannelIdentifier.from(LunaChat.PMC_MESSAGE));

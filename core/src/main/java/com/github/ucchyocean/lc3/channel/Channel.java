@@ -27,7 +27,6 @@ import com.github.ucchyocean.lc3.LunaChat;
 import com.github.ucchyocean.lc3.LunaChatAPI;
 import com.github.ucchyocean.lc3.LunaChatConfig;
 import com.github.ucchyocean.lc3.LunaChatNormalChatLogger;
-import com.github.ucchyocean.lc3.LunaChatMode;
 import com.github.ucchyocean.lc3.Messages;
 import com.github.ucchyocean.lc3.NGWordAction;
 import com.github.ucchyocean.lc3.event.EventResult;

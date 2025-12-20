@@ -10,6 +10,7 @@ import java.util.Map;
 
 import com.github.ucchyocean.lc3.LunaChat;
 import com.github.ucchyocean.lc3.channel.Channel;
+import com.github.ucchyocean.lc3.event.chat.ChannelChatEvent;
 import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
@@ -27,6 +28,7 @@ public class EventResult {
     private List<ChannelMember> recipients;
     private String japanized;
     private Map<String, String> options;
+
 
     /**
      * @return チャンネル
@@ -146,4 +148,5 @@ public class EventResult {
     public void setOptions(Map<String, String> options) {
         this.options = options;
     }
+
 }

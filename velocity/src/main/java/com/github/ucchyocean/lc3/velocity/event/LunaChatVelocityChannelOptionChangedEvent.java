@@ -5,16 +5,16 @@
  */
 package com.github.ucchyocean.lc3.velocity.event;
 
+import com.github.ucchyocean.lc3.event.chat.ChannelOptionChangedEvent;
 import com.github.ucchyocean.lc3.member.ChannelMember;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
  * オプション変更イベント
  * @author ucchy
  */
-public class LunaChatVelocityChannelOptionChangedEvent extends LunaChatVelocityBaseCancellableEvent {
+public class LunaChatVelocityChannelOptionChangedEvent extends LunaChatVelocityBaseCancellableEvent implements ChannelOptionChangedEvent {
 
     private final ChannelMember member;
     private Map<String, String> options;
@@ -38,7 +38,7 @@ public class LunaChatVelocityChannelOptionChangedEvent extends LunaChatVelocityB
      * オプションリストを上書き設定する
      * @param options オプションリスト
      */
-    public void setOptions(HashMap<String, String> options) {
+    public void setOptions(Map<String, String> options) {
         this.options = options;
     }
 

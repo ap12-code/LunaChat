@@ -10,6 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bungee/LunaChat.bungee.test.iml" filepath="$PROJECT_DIR$/.idea/modules/bungee/LunaChat.bungee.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/LunaChat.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/LunaChat.core.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/LunaChat.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/LunaChat.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discord/LunaChat.discord.main.iml" filepath="$PROJECT_DIR$/.idea/modules/discord/LunaChat.discord.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discord/LunaChat.discord.test.iml" filepath="$PROJECT_DIR$/.idea/modules/discord/LunaChat.discord.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LunaChat.test.iml" filepath="$PROJECT_DIR$/.idea/modules/LunaChat.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/velocity/LunaChat.velocity.main.iml" filepath="$PROJECT_DIR$/.idea/modules/velocity/LunaChat.velocity.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/velocity/LunaChat.velocity.test.iml" filepath="$PROJECT_DIR$/.idea/modules/velocity/LunaChat.velocity.test.iml" />
     </modules>

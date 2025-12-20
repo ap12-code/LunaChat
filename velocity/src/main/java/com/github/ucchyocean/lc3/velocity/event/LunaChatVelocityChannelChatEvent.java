@@ -5,13 +5,14 @@
  */
 package com.github.ucchyocean.lc3.velocity.event;
 
+import com.github.ucchyocean.lc3.event.chat.ChannelChatEvent;
 import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
  * チャンネルチャットのチャットイベント
  * @author ucchy
  */
-public class LunaChatVelocityChannelChatEvent extends LunaChatVelocityBaseCancellableEvent {
+public class LunaChatVelocityChannelChatEvent extends LunaChatVelocityBaseCancellableEvent implements ChannelChatEvent {
 
     private final ChannelMember member;
     private final String originalMessage;

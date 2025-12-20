@@ -8,6 +8,7 @@ import com.github.ucchyocean.lc3.member.ChannelMember;
 import com.github.ucchyocean.lc3.member.ChannelMemberOther;
 import com.github.ucchyocean.lc3.messaging.BukkitChatMessage;
 import com.github.ucchyocean.lc3.util.*;
+import com.github.ucchyocean.lc3.velocity.event.LunaChatVelocityPreChatEvent;
 import com.github.ucchyocean.lc3.velocity.member.ChannelMemberVelocity;
 import com.velocitypowered.api.command.CommandSource;
 import com.velocitypowered.api.event.Subscribe;
@@ -307,8 +308,7 @@ public class LunaChatVelocityEventListener {
     private void chatToChannelWithEvent(ChannelMember player, Channel channel, String message) {
 
         // LunaChatPreChatEvent イベントコール
-        EventResult result = LunaChat.getEventSender().sendLunaChatPreChatEvent(
-                channel.getName(), player, message);
+        EventResult result = LunaChat.getEventSender().emit(new LunaChatVelocityPreChatEvent(channel.getName(), player, message));
         if ( result.isCancelled() ) {
             return;
         }
