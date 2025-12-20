@@ -5,18 +5,20 @@
  */
 package com.github.ucchyocean.lc3.bukkit.event;
 
+import com.github.ucchyocean.lc3.event.LunaChatEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
 import com.github.ucchyocean.lc3.LunaChat;
 import com.github.ucchyocean.lc3.channel.Channel;
+import org.jetbrains.annotations.NotNull;
 
 /**
  * 基底イベントクラス
  * @author ucchy
  */
-public abstract class LunaChatBukkitBaseEvent extends Event {
+public abstract class LunaChatBukkitBaseEvent extends Event implements LunaChatEvent {
 
     private static final HandlerList handlers = new HandlerList();
     protected String channelName;
@@ -31,7 +33,7 @@ public abstract class LunaChatBukkitBaseEvent extends Event {
     }
 
     @Override
-    public HandlerList getHandlers() {
+    public @NotNull HandlerList getHandlers() {
         return handlers;
     }
 

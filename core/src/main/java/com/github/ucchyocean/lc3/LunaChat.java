@@ -10,6 +10,7 @@ import java.util.UUID;
 
 import com.github.ucchyocean.lc3.channel.Channel;
 import com.github.ucchyocean.lc3.event.EventSenderInterface;
+import com.github.ucchyocean.lc3.event.LunaChatEventManager;
 import com.github.ucchyocean.lc3.member.ChannelMember;
 
 /**
@@ -25,6 +26,7 @@ public class LunaChat {
     private static PluginInterface instance;
     private static LunaChatMode mode;
     private static EventSenderInterface eventSender;
+    private static final LunaChatEventManager eventManager = new LunaChatEventManager();
 
     // LunaChatに実行元プラグインクラスを設定する
     public static void setPlugin(PluginInterface plugin) {
@@ -159,4 +161,6 @@ public class LunaChat {
     public static boolean existsOfflinePlayer(String name) {
         return instance.existsOfflinePlayer(name);
     }
+
+    public static LunaChatEventManager getEventManager() { return eventManager; }
 }

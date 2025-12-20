@@ -7,12 +7,13 @@ package com.github.ucchyocean.lc3.velocity.event;
 
 import com.github.ucchyocean.lc3.LunaChat;
 import com.github.ucchyocean.lc3.channel.Channel;
+import com.github.ucchyocean.lc3.event.LunaChatEvent;
 
 /**
  * 基底イベントクラス
  * @author ucchy
  */
-public abstract class LunaChatVelocityBaseEvent {
+public abstract class LunaChatVelocityBaseEvent implements LunaChatEvent {
 
     protected String channelName;
 

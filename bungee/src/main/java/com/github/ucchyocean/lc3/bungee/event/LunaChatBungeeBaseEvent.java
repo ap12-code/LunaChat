@@ -8,13 +8,14 @@ package com.github.ucchyocean.lc3.bungee.event;
 import com.github.ucchyocean.lc3.LunaChat;
 import com.github.ucchyocean.lc3.channel.Channel;
 
+import com.github.ucchyocean.lc3.event.LunaChatEvent;
 import net.md_5.bungee.api.plugin.Event;
 
 /**
  * 基底イベントクラス
  * @author ucchy
  */
-public abstract class LunaChatBungeeBaseEvent extends Event {
+public abstract class LunaChatBungeeBaseEvent extends Event implements LunaChatEvent {
 
     protected String channelName;
 
